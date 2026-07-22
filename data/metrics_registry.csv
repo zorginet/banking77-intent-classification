@@ -1,0 +1,6 @@
+Model,Hyperparams,Train F1 (Macro),Val F1 (Macro),Test F1 (Macro),Time (sec)
+Logistic Regression (TF-IDF),"{'C': 1.000, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1...",0.9168,0.8349,0.8341,0.6
+CatBoost (TF-IDF),"{'learning_rate': 0.149, 'depth': 5, 'l2_leaf_reg': 0.149, 'loss_function': 'MultiClass', 'border_co...",0.9885,0.8455,0.8459,132.6
+MLP (TF-IDF),"IntentMLP (5.5M params), AdamW: lr=0.001, wd=0.01",0.9694,0.8453,0.8607,3.6
+MLP (Sentence Transformers),"IntentMLP (961.6k params), AdamW: lr=0.001, wd=0.01",0.9736,0.9232,0.9265,2.2
+BERT (RoBERTa),"RobertaForSequenceClassification (124.7M params), AdamW: lr=1e-05, wd=0.01",0.9911,0.9177,0.928,693.5

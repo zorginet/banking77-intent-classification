@@ -1,0 +1,11 @@
+# Technical cache for models 
+**/catboost_info/
+
+# The Python and Jupyter Notebook system cache
+**/__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# System files for the Mac/Windows operating system and VS Code
+.DS_Store
+.vscode/

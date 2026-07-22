@@ -1,0 +1,9 @@
+--find-links https://download.pytorch.org/whl/cpu
+numpy<2.0
+torch==2.5.1
+transformers
+sentence-transformers
+fastapi
+uvicorn
+pandas
+pydantic
