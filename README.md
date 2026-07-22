@@ -137,7 +137,7 @@ Once the commands have been executed, the service will automatically start insid
 
 The final version of the REST API has been deployed as a **Render service** of the Docker Space type, with automatic redeployment on every push to the Render Git repository.
 
-* 🔗 **Link to the live API:** `https://render.com/`
+* 🔗 **Link to the live API:** `https://banking77-intent-classification.onrender.com/docs`
 
 ### 🧠 Infrastructure Features & Optimization
 
