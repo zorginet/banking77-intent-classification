@@ -129,15 +129,15 @@ Running locally with port forwarding to Render (8000):
 ```bash
 docker run -p 8000:8000 banking-intent-api
 ```
-Once the commands have been executed, the service will automatically start inside the container and will be accessible at: `http://localhost:8000/docs`.
+Once the commands have been executed, the service will automatically start inside the container and will be accessible at: [http://localhost:8000/docs](http://localhost:8000/docs).
 
 ---
 
 ## 🌐 9. Cloud deployment
 
-The final version of the REST API has been deployed as a **Render service** of the Docker Space type, with automatic redeployment on every push to the Render Git repository.
+The final version of the REST API is deployed as a Web Service on **Render** using Docker, with automatic redeployments triggered on every `git push` to the main branch.
 
-* 🔗 **Link to the live API:** `https://banking77-intent-classification.onrender.com/docs`
+* 🔗 **Link to the live API:** [https://banking77-intent-classification.onrender.com/docs](https://banking77-intent-classification.onrender.com/docs)
 
 ### 🧠 Infrastructure Features & Optimization
 
